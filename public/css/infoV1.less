@@ -1,0 +1,163 @@
+@base: #c1c1c1;
+//公共布局
+.t-c(@color:#e4393c) {
+  color: @color;
+}
+
+.t-bg(@background-color:#e4393c) {
+  background-color: @background-color
+}
+
+.mg(@a:5px,@b:5px,@c:5px,@d:5px) {
+  margin: @a @b @c @d
+}
+
+.mgt(@a:5px) {
+  margin-top: @a
+}
+
+.mgl(@a:5px) {
+  margin-left: @a
+}
+
+.mgr(@a:5px) {
+  margin-right: @a
+}
+
+.mgb(@a:5px) {
+  margin-bottom: @a
+}
+
+.pd(@a:5px,@b:5px,@c:5px,@d:5px) {
+  padding: @a @b @c @d
+}
+
+.pdt(@a:5px) {
+  padding-top: @a
+}
+
+.pdl(@a:5px) {
+  padding-left: @a
+}
+
+.pdr(@a:5px) {
+  padding-right: @a
+}
+
+.pdb(@a:5px) {
+  padding-bottom: @a
+}
+
+.bg(@a:#fff) {
+  background-color: @a;
+}
+
+.bd(@a:1px solid #999) {
+  border: @a;
+}
+
+//弹性盒子布局
+.flex-box(@b:row,@a:space-around,@c:center) {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: @a;
+  flex-direction: @b;
+  align-items: @c;
+}
+
+.container {
+  font-size: 16px;
+  font-size: 1rem;
+  @media screen {
+    @media (min-width: 768px) {
+      max-width: 640px;
+      background-color: @base;
+    }
+    @media (max-width: 768px) {
+      width: 100%;
+      .t-bg();
+    }
+  }
+}
+
+.index {
+  width: 100%;
+  @media screen {
+    @media (min-width: 768px) {
+      .indexBanner {
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    @media (max-width: 768px) {
+      .indexBanner {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+  }
+
+}
+
+.robShoppingCar {
+  @media screen {
+    @media (min-width: 768px) {
+      .robShoppingCarRow {
+        margin-bottom: 5px;
+        .t-bg();
+        .robShoppingCarRowLeft {
+          .flex-box(row, space-between, inherit);
+          .robShoppingCarRowLeftTxt {
+            .t-bg(#abcdef);
+            max-height: 50%;
+            min-width: 43%;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 768px) {
+      .robShoppingCarRow {
+        margin-bottom: 5px;
+        .t-bg();
+        .robShoppingCarRowLeft {
+          .flex-box(row, space-between, inherit);
+          .robShoppingCarRowLeftTxt {
+            .t-bg(#abcdef);
+            width: 43%;
+          }
+        }
+      }
+    }
+
+  }
+
+}
+
+//*****************为范例可忽略*************************************
+.box-shadow(@style, @c) when (iscolor(@c)) {
+  -webkit-box-shadow: @style @c;
+  box-shadow: @style @c;
+}
+
+.box-shadow(@style, @alpha: 50%) when (isnumber(@alpha)) {
+  .box-shadow(@style, rgba(0, 0, 0, @alpha));
+}
+
+.box {
+  color: saturate(@base, 0);
+  border-color: lighten(@base, 30%);
+  div {
+
+    color: #000;
+    .box-shadow(0 0 5px, 30%)
+
+  }
+}
+
+//*****************为范例可忽略*************************************

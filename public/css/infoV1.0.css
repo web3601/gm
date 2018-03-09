@@ -1,0 +1,825 @@
+
+@media screen and (min-width: 768px) {
+    .container {
+        /*width: 100%;*/
+        /*margin: 0;*/
+        /*padding: 0;*/
+        max-width: 640px;
+        padding:0;
+    }
+
+    .index {
+        background-color: #EEEEEE;
+        margin-bottom: 2rem;
+    }
+
+    .index .indexBanner {
+        width: 100%;
+    }
+
+    .index .indexBanner img {
+        width: 100%;
+    }
+
+    .indexBody {
+        /*左右布局,右侧有tel*/
+        overflow: hidden;
+    }
+
+    .indexBody .telArea {
+        padding: 1rem;
+        overflow: hidden;
+        margin-top: .625rem;
+        background-color: #fff;
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #E5E5E5;
+
+    }
+
+    .indexBody .telArea .telAreaLeftDiv {
+        color: #F62365;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .indexBody .telArea img {
+        display: inline-block;
+
+    }
+
+    .indexBody .telArea a {
+        color: #999;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .indexBody .iconGroup {
+        background-color: #fff;
+    }
+
+    .indexBody .iconGroup .iconRow {
+        display: inline-block;
+        padding: 1rem .3125rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #785F4D;
+
+    }
+
+    .indexBody .iconGroup .iconRow i {
+        margin-right: .3125rem;
+        font-size: 1rem;
+    }
+
+    .indexBody .iconGroup .iconRow span {
+    }
+
+    .indexBody .robShoppingCar {
+        background-color: #fff;
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow {
+        font-size: .75rem;
+        padding: .3125rem;
+        /*background-color: pink;*/
+        width: 100%;
+        overflow: hidden;
+        border-bottom: 1px solid #E5E5E5;
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowLeft {
+        float: left;
+        overflow: hidden;
+        /*background-color: red;*/
+        width: 100%;
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowLeft .robShoppingCarRowLeftImg {
+        display: inline-block;
+        width: 6rem;
+        overflow: hidden;
+        float: left;
+        margin-right: .3125rem;
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowLeft .robShoppingCarRowLeftImg img {
+        width: 100%;
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowLeft .robShoppingCarRowLeftTxt {
+        display: inline-block;
+        width: 42%;
+        word-break: break-all;
+        overflow: hidden;
+        height: 5.68rem;
+        /*background-color: #e4393c;*/
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowLeft .robShoppingCarRowLeftTxt .priceArea {
+        color: #999;
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowLeft .robShoppingCarRowLeftTxt .priceArea .price {
+        color: #F62368;
+        font-size: 2rem;
+        min-width: 5rem;
+        display: inline-block;
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowLeft .robShoppingCarRowLeftTxt .price .priceIcon {
+        font-size: 1rem;
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowLeft .robShoppingCarRowLeftTxt .maxHeight {
+        display: inline-block;
+        min-height: 60%;
+        width: 100%;
+        font-weight: bold;
+        font-size: .875rem;
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowRight {
+        float: right;
+        /*background-color: #abcdef;*/
+        padding: .3125rem .5rem .3125rem 0;
+
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowRight .qg {
+        border: 1px solid #F62368;
+        padding: .3125rem .625rem;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        color: #F62368;
+        cursor: pointer;
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowRight .ys {
+        font-size: .5rem;
+        color: #999;
+    }
+    .buyBody {
+        padding: 1.25rem 0;
+        background-color: #f1f1f1;
+        /*background-color: #DADADA;*/
+
+    }
+
+    .buyBody .fieldset {
+        overflow: hidden;
+        background-color: #fff;
+        padding: .9rem .9rem 1rem;
+
+    }
+
+    .buyBody .fieldset fieldset {
+        width: 100%;
+        height: auto;
+        border: 1px solid #331111;
+        padding: 0.7rem;
+        color: #000;
+    }
+
+    .buyBody .fieldset fieldset legend {
+        width: auto;
+        padding: 0 1rem;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+        border: 0;
+    }
+
+    .buyBody .fieldset fieldset .infoRow {
+        color: #666;
+        padding-left: 1.2rem;
+        position: relative;
+    }
+
+    .buyBody .fieldset fieldset .infoRow .icon {
+        margin-right: 0.2rem;
+        color: #000;
+        position: absolute;
+        top: 0;
+        left: .01rem;
+
+    }
+
+    .buyBody .fieldset fieldset .infoRow .name {
+        color: #000;
+    }
+
+    .buyBody .ShopCar {
+        background-color: #fff;
+        margin-top: .3125rem;
+        /*padding:.9rem;*/
+    }
+
+    .buyBody .ShopCar .carRow {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        /*padding-bottom:.9rem;*/
+        padding: .9rem;
+    }
+
+    .buyBody .ShopCar .carRow .calcNum {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+        align-items: center;
+        color: #999;
+    }
+
+    .buyBody .ShopCar .carRow .calcNum .disabled {
+        color: #999 !important;
+    }
+
+    .buyBody .ShopCar .carRow .calcNum .button-tiny {
+        padding: 0 9px;
+        color: #999;
+    }
+
+    .buyBody .ShopCar .carRow .calcTxt .quotaTxt {
+        font-size: .8rem;
+        color: #999;
+    }
+
+    .buyBody .ShopCar .carRow .priceTxt {
+
+    }
+
+    .buyBody .ShopCar .carRow .priceNum {
+        color: #f62368;
+        font-size: 1.3125rem;
+        font-weight: bold;
+    }
+
+    .buyBody .ShopCar .carRow:first-child {
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .cf62368 {
+        color: #f62368
+    }
+
+    .lsb {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mgt3125 {
+        margin-top: .3125rem;
+    }
+
+    .bgfff {
+        background-color: #FFF;
+    }
+    .bdr875{
+        -webkit-border-radius:.1875rem;
+        -moz-border-radius:.1875rem;
+        border-radius:.1875rem;
+    }
+
+    .pd-d-9 {
+        padding: .9rem;
+    }
+
+    .pd-d-9b0 {
+        padding: .9rem .9rem 0 .9rem;
+    }
+
+    .ipc {
+        border: 1px solid #999;
+        line-height: 1.3125rem;
+        width: 13.6875rem;
+        box-sizing: border-box;
+        padding: .3125rem;
+        -webkit-border-radius: .1875rem;
+        -moz-border-radius: .1875rem;
+        border-radius: .1875rem;
+    }
+
+    .ipcChoose{
+        border: 1px solid #999;
+        line-height: 1.3125rem;
+        width: 13.6875rem;
+        box-sizing: border-box;
+        padding: .3125rem;
+        -webkit-border-radius: .1875rem;
+        -moz-border-radius: .1875rem;
+        border-radius: .1875rem;
+    }
+    .bd {
+        border: 1px solid #aaa;
+    }
+    .tc{
+        text-align: center;
+    }
+
+    .pdt3l1 {
+        padding: .3125rem .125rem .3125rem .3125rem;
+    }
+
+    .bgct{
+        background-color: #e4393c;
+    }
+    .bgctr{
+        background-color: #abcdef;
+    }
+    .buyBody .userInfo {
+        padding-bottom: .9rem;
+    }
+
+    .buyBody .userInfo .userRow .chooseTime {
+        width: 13.6875rem;
+        height: 1.3125rem;
+    }
+
+    .buyBody .userInfo .userRow .chooseTime .vessel {
+        /*border: 1px solid #aaa;*/
+
+        display: inline-block;
+        width: 2rem;
+        height: 1.3125rem;
+        border:0;
+        text-align: center;
+    }
+    .buyBody .userInfo .userRow .chooseTime .icon-calendar {
+        margin-right:.3125rem;
+    }
+
+    .buyBody .userInfo .userRow .ipcInput {
+        display: inline-block;
+        height:1.5rem;
+        line-height:1.5rem;
+        width:90%;
+        border:0;
+    }
+    .buyBody .userInfo .userRow .com {
+        position: relative;
+    }
+    .buyBody .userInfo .userRow .posVessel {
+        position: absolute;
+        top:1.9125rem;
+        left:0;
+        width:100%;
+        height:auto;
+        z-index: 999;
+        display: none;
+    }
+    .buyBody .userInfo .userRow .posVessel li{
+        padding:.3125rem 0;
+    }
+
+    .buyBody .buyStore{
+        margin-top:1rem;
+        background-color: #fff;
+        padding:1rem .5rem 5rem .5rem;
+    }
+    .buyBody .buyStore .title{
+        font-size:1.5rem;
+    }
+    .buyBody .buyStore .storeBody{
+        font-size:1rem;
+        /*padding-top:1.7rem;*/
+    }
+    .buyBody .buyStore .storeBody li{
+        /*padding-bottom:1.7rem;*/
+        padding:.65rem 0 .65rem 2rem;
+        /*background-color: #e4393c;*/
+        position: relative;
+    }
+    .buyBody .buyStore .storeBody li i{
+        position: absolute;
+        left:.5rem;
+    }
+    .w100{
+        width:100%;
+        /*margin: 0 auto;*/
+        /*display: block;*/
+        /*-webkit-border-radius:5px;*/
+        /*-moz-border-radius:5px;*/
+        /*border-radius:5px;*/
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .index {
+        background-color: #EEEEEE;
+        margin-bottom: 2rem;
+    }
+
+    .index .indexBanner {
+        width: 100%;
+    }
+
+    .index .indexBanner img {
+        width: 100%;
+    }
+
+    .indexBody {
+        /*左右布局,右侧有tel*/
+        overflow: hidden;
+    }
+
+    .indexBody .telArea {
+        padding: 1rem;
+        overflow: hidden;
+        margin-top: .625rem;
+        background-color: #fff;
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #E5E5E5;
+
+    }
+
+    .indexBody .telArea .telAreaLeftDiv {
+        color: #F62365;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .indexBody .telArea img {
+        display: inline-block;
+    }
+
+    .indexBody .telArea a {
+        color: #999;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .indexBody .iconGroup {
+        background-color: #fff;
+    }
+
+    .indexBody .iconGroup .iconRow {
+        display: inline-block;
+        padding: 1rem .3125rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #785F4D;
+
+    }
+
+    .indexBody .iconGroup .iconRow i {
+        margin-right: .3125rem;
+        font-size: 1rem;
+    }
+
+    .indexBody .iconGroup .iconRow span {
+    }
+
+    .indexBody .robShoppingCar {
+        background-color: #fff;
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow {
+        font-size: .75rem;
+        padding: .3125rem;
+        /*background-color: pink;*/
+        width: 100%;
+        overflow: hidden;
+        border-bottom: 1px solid #E5E5E5;
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowLeft {
+        float: left;
+        overflow: hidden;
+        /*background-color: red;*/
+        width: 100%;
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowLeft .robShoppingCarRowLeftImg {
+        display: inline-block;
+        width: 6rem;
+        overflow: hidden;
+        float: left;
+        margin-right: .3125rem;
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowLeft .robShoppingCarRowLeftImg img {
+        width: 100%;
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowLeft .robShoppingCarRowLeftTxt {
+        display: inline-block;
+        width: 42%;
+        word-break: break-all;
+        overflow: hidden;
+        height: 5.68rem;
+        /*background-color: #e4393c;*/
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowLeft .robShoppingCarRowLeftTxt .priceArea {
+        color: #999;
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowLeft .robShoppingCarRowLeftTxt .priceArea .price {
+        color: #F62368;
+        font-size: 2rem;
+        display: inline-block;
+        min-width: 5rem;
+
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowLeft .robShoppingCarRowLeftTxt .price .priceIcon {
+        font-size: 1rem;
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowLeft .robShoppingCarRowLeftTxt .maxHeight {
+        display: inline-block;
+        min-height: 60%;
+        width: 100%;
+        font-weight: bold;
+        font-size: .875rem;
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowRight {
+        float: right;
+        /*background-color: #abcdef;*/
+        padding: .3125rem .5rem .3125rem 0;
+
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowRight .qg {
+        border: 1px solid #F62368;
+        padding: .3125rem .625rem;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        color: #F62368;
+        cursor: pointer;
+    }
+
+    .indexBody .robShoppingCar .robShoppingCarRow .robShoppingCarRowRight .ys {
+        font-size: .75rem;
+        color: #999;
+    }
+
+
+    .buyBody {
+        padding: .3125rem 0;
+        background-color: #f1f1f1;
+        /*background-color: #DADADA;*/
+
+    }
+
+    .buyBody .fieldset {
+        overflow: hidden;
+        background-color: #fff;
+        padding: .9rem .9rem 1rem;
+
+    }
+
+    .buyBody .fieldset fieldset {
+        width: 100%;
+        height: auto;
+        border: 1px solid #331111;
+        padding: 0.7rem;
+        color: #000;
+    }
+
+    .buyBody .fieldset fieldset legend {
+        width: auto;
+        padding: 0 1rem;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+        border: 0;
+    }
+
+    .buyBody .fieldset fieldset .infoRow {
+        color: #666;
+        padding-left: 1.2rem;
+        position: relative;
+    }
+
+    .buyBody .fieldset fieldset .infoRow .icon {
+        margin-right: 0.2rem;
+        color: #000;
+        position: absolute;
+        top: 0;
+        left: .01rem;
+
+    }
+
+    .buyBody .fieldset fieldset .infoRow .name {
+        color: #000;
+    }
+
+    .buyBody .ShopCar {
+        background-color: #fff;
+        margin-top: .3125rem;
+        /*padding:.9rem;*/
+    }
+
+    .buyBody .ShopCar .carRow {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        /*padding-bottom:.9rem;*/
+        padding: .9rem;
+    }
+
+    .buyBody .ShopCar .carRow .calcNum {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+        align-items: center;
+        color: #999;
+    }
+
+    .buyBody .ShopCar .carRow .calcNum .disabled {
+        color: #999 !important;
+    }
+
+    .buyBody .ShopCar .carRow .calcNum .button-tiny {
+        padding: 0 9px;
+        color: #999;
+    }
+
+    .buyBody .ShopCar .carRow .calcTxt .quotaTxt {
+        font-size: .8rem;
+        color: #999;
+    }
+
+    .buyBody .ShopCar .carRow .priceTxt {
+
+    }
+
+    .buyBody .ShopCar .carRow .priceNum {
+        color: #f62368;
+        font-size: 1.3125rem;
+        font-weight: bold;
+    }
+
+    .buyBody .ShopCar .carRow:first-child {
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .cf62368 {
+        color: #f62368
+    }
+
+    .lsb {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mgt3125 {
+        margin-top: .3125rem;
+    }
+
+    .bgfff {
+        background-color: #FFF;
+    }
+    .bdr875{
+        -webkit-border-radius:.1875rem;
+        -moz-border-radius:.1875rem;
+        border-radius:.1875rem;
+    }
+
+    .pd-d-9 {
+        padding: .9rem;
+    }
+
+    .pd-d-9b0 {
+        padding: .9rem .9rem 0 .9rem;
+    }
+
+    .ipc {
+        border: 1px solid #999;
+        line-height: 1.3125rem;
+        width: 13.6875rem;
+        box-sizing: border-box;
+        padding: .3125rem;
+        -webkit-border-radius: .1875rem;
+        -moz-border-radius: .1875rem;
+        border-radius: .1875rem;
+    }
+
+    .ipcChoose{
+        border: 1px solid #999;
+        line-height: 1.3125rem;
+        width: 13.6875rem;
+        box-sizing: border-box;
+        padding: .3125rem;
+        -webkit-border-radius: .1875rem;
+        -moz-border-radius: .1875rem;
+        border-radius: .1875rem;
+    }
+    .bd {
+        border: 1px solid #aaa;
+    }
+    .tc{
+        text-align: center;
+    }
+
+    .pdt3l1 {
+        padding: .3125rem .125rem .3125rem .3125rem;
+    }
+
+    .bgct{
+        background-color: #e4393c;
+    }
+    .bgctr{
+        background-color: #abcdef;
+    }
+    .buyBody .userInfo {
+        padding-bottom: .9rem;
+    }
+
+    .buyBody .userInfo .userRow .chooseTime {
+        width: 13.6875rem;
+        height: 1.3125rem;
+    }
+
+    .buyBody .userInfo .userRow .chooseTime .vessel {
+        /*border: 1px solid #aaa;*/
+
+        display: inline-block;
+        width: 2rem;
+        height: 1.3125rem;
+        border:0;
+        text-align: center;
+    }
+    .buyBody .userInfo .userRow .chooseTime .icon-calendar {
+        margin-right:.3125rem;
+    }
+
+    .buyBody .userInfo .userRow .ipcInput {
+        display: inline-block;
+        height:1.5rem;
+        line-height:1.5rem;
+        width:90%;
+        border:0;
+    }
+    .buyBody .userInfo .userRow .com {
+        position: relative;
+    }
+    .buyBody .userInfo .userRow .posVessel {
+        position: absolute;
+        top:1.9125rem;
+        left:0;
+        width:100%;
+        height:auto;
+        z-index: 999;
+        display: none;
+    }
+    .buyBody .userInfo .userRow .posVessel li{
+        padding:.3125rem 0;
+    }
+
+    .buyBody .buyStore{
+        margin-top:1rem;
+        background-color: #fff;
+        padding:1rem .5rem 0 .5rem;
+    }
+    .buyBody .buyStore .storeBody{
+        font-size:.9rem;
+        /*padding-top:1.7rem;*/
+    }
+    .buyBody .buyStore .storeBody li{
+        /*padding-bottom:1.7rem;*/
+        padding:.65rem 0 .65rem 1rem;
+        /*background-color: #e4393c;*/
+        position: relative;
+        vertical-align: baseline
+    }
+    .buyBody .buyStore .storeBody li i{
+        position: absolute;
+        left:0;
+        top:0.8rem;
+    }
+    .w100{
+        width:100%;
+    }
+
+
+}
+
